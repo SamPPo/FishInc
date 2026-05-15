@@ -3,6 +3,16 @@
 	"EngineAssociation": "5.7",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "FishInc",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -60,10 +70,6 @@
 		},
 		{
 			"Name": "AutomationUtils",
-			"Enabled": false
-		},
-		{
-			"Name": "BlueprintHeaderView",
 			"Enabled": false
 		},
 		{
@@ -400,14 +406,6 @@
 			"Enabled": false
 		},
 		{
-			"Name": "VisualStudioSourceCodeAccess",
-			"Enabled": false
-		},
-		{
-			"Name": "VisualStudioCodeSourceCodeAccess",
-			"Enabled": false
-		},
-		{
 			"Name": "WindowsDeviceProfileSelector",
 			"Enabled": false
 		},
@@ -448,6 +446,10 @@
 			"SupportedTargetPlatforms": [
 				"Win64"
 			]
+		},
+		{
+			"Name": "BlueprintHeaderView",
+			"Enabled": false
 		}
 	]
 }

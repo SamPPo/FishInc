@@ -1,0 +1,14 @@
+# FishInc Cheats
+# Open the console with ` (backtick) during Play In Editor.
+
+GiveCurrency Coins <Amount>
+  - Adds the specified amount of Coins directly to the EconomySubsystem.
+  - Example: GiveCurrency Coins 1000
+
+GiveCurrency Fish <Amount>
+  - Adds the specified amount of Fish directly to the EconomySubsystem.
+  - Example: GiveCurrency Fish 500
+
+GiveCurrency Pearls <Amount>
+  - Adds the specified amount of Pearls directly to the EconomySubsystem.
+  - Example: GiveCurrency Pearls 10
